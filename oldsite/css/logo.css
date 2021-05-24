@@ -1,0 +1,170 @@
+* {
+	box-sizing: border-box;
+	height: 100%;
+}
+
+html {
+/*	height: 100%;*/
+}
+
+body  {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+/*	overflow: hidden;*/
+	perspective: 1000px;
+	background-color: #4AF7CA;
+}
+
+.logoContainer{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.logo {
+	display: block;
+	width: 65%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+.logo:hover {
+	transform: rotateX(18deg);
+	transition: transform .5s ease 0s;
+	
+}
+
+.logoPosition {
+	animation: logoPosition 1.5s forwards ease;
+}
+
+@keyframes logoPosition {
+	from {
+		height: 100%;
+	}
+	to {
+		height: 10%;
+	}
+}
+
+.navBarContainer {
+	padding: 1.25em;
+	height: 1em;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	visibility: hidden;
+	transition: visibility 2s ease 3s;
+	perspective: 5000px;
+}
+
+.navBarVisibility {
+	visibility: visible;
+	transition: visibility 0s cubic-bezier(.29, 1.01, 1, -0.68) 1.5s;
+}
+
+.navItem {
+	list-style: none;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	height: 3em;
+	width: 8em;
+	text-align: center;
+	padding: .6em;
+	
+}
+
+.navItem:hover {
+	transform: rotateX(30deg);
+	box-shadow: 2px 0px 15px -5px #7DE3D9;
+	transition: transform .5s ease 0s, box-shadow .5s ease-in 0s;
+}
+
+.navItem a {
+	text-decoration: none;
+	color: black;
+}
+
+.content {
+	display: grid;
+	
+}
+
+.mainVideoContainer{
+	position: relative;
+	height: 56vw;
+/*	width: 100%;*/
+}
+
+video {
+	width: 100%;
+	height: 100%;
+}
+
+.mari {
+	width: 30vw;
+	height: 30vw;
+	opacity: .2;
+}
+
+.mari:hover {
+	opacity: 1;
+	transition: opacity .75s ease 0s, transform .75s ease 0s;
+	transform: scale(1.012);
+}
+
+.mariText {
+	width: 30vw;
+	height: 10vw;
+}
+
+.mariText:hover {
+	text-shadow:  0px 0px 10px grey;
+	transform: scale(.97);
+	transition: transform .25s ease-in 0s;
+}
+
+.mariContainer {
+	display: flex;
+	justify-content: center;
+	align-items: space-around;
+	height: 26vw;
+}
+
+.mariTextContainer {
+	display: flex;
+	justify-content: center;
+	align-items: space-around;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	height: 6vw;
+}
+
+section {
+	height: 40vw;
+}
+
+.nextContent {
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.threeD {
+	height: 100%;
+	width: 100vw;
+	border: none;
+}
+
+
+

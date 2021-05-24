@@ -1,0 +1,187 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 48032,
+            "type": "VEC3",
+            "max": [
+                -0.013199100270867348,
+                0.21290738880634309,
+                0.035959597676992419
+            ],
+            "min": [
+                -0.12580029666423798,
+                0.0404605008661747,
+                -0.15726730227470399
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 48032,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 48032,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 72048,
+            "type": "SCALAR",
+            "max": [
+                48031.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 576384,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 576384,
+            "byteLength": 576384,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1152768,
+            "byteLength": 384256,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1537024,
+            "byteLength": 288192,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1825216,
+            "uri": "Untitled_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "Rainbow Anodized Metal Layer Stack_baseColor",
+            "uri": "Untitled_images\\Rainbow Anodized Metal Layer Stack_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "image_image",
+            "uri": "Untitled_images\\image_image.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "name": "Rainbow Anodized Metal Layer Stack",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Food Bag",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5,
+                0.29999998211860659,
+                0.5
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "mesh": 0,
+            "name": "Food Bag"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "Rainbow Anodized Metal Layer Stack::baseColor::image",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "image_image",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0
+}

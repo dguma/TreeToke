@@ -1,0 +1,16 @@
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    /* border: hotpink solid; */
+}
+
+.logo {
+    width: 50rem;
+}
+
+body {
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
