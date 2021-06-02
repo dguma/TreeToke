@@ -1,16 +1,60 @@
-.logoContainer {
-    display: flex;
-    justify-content: center;
-    /* border: hotpink solid; */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.logo {
-    width: 50rem;
+html, body {
+	height: 100%;
 }
 
 body {
-    height: 100vw;
+
+    animation: backgroundChange 10s infinite ease-in-out;
+}
+
+.logoContainer {
+    height: 100%;
+    fill: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 45rem;
+}
+
+@keyframes backgroundChange {
+    0% {
+        background-color: #F27405;
+    }
+
+    20% {
+        background-color: #9F4BF2;
+    }
+
+    40% {
+        background-color: #1E8C0D; 
+    }
+
+    60% {
+        background-color: #17bfb7;
+    }
+
+    80% {
+        background-color: #F2DB66;
+    }
+
+    100% {
+        background-color: #F27405;
+    }
+}
+
+@media screen and (min-width: 320px){
+	.logo {
+		width: 20rem;
+	}
 }
